@@ -1,10 +1,11 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/roxedus/base-alpine:2023-01-17_14.58
+FROM alpine:3.14
 
-ENV DOTNET_VER=7.0.0 DOTNET_ARCH=x64
+ENV DOTNET_VER=8.0.0 DOTNET_ARCH=x64
 
 LABEL maintainer=Roxedus
+LABEL co-maintainer=galihcupu
 LABEL dotnet_version=${DOTNET_VER} dotnet_arch=${DOTNET_ARCH}
 
 RUN \
