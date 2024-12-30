@@ -13,7 +13,7 @@
 ```yml
   dnsserver:
     container_name: ts-dnsserver
-    image: roxedus/ts-dnsserver:latest
+    image: galihcupu/ts-dnsserver:latest
     ports:
       - 53:53/udp
       - 5380:5380
