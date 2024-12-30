@@ -7,8 +7,6 @@ on:
       - "Dockerfile.amd64"
       - "root/**"
       - ".github/workflows/build.yaml"
-    paths-ignore:
-      - "Dockerfile.arm64"
   schedule:
     - cron: "0 22 1,15 * 5"
 
