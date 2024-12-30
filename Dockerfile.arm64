@@ -27,6 +27,7 @@ RUN \
 
 RUN \
   wget -q https://download.technitium.com/dns/DnsServerPortable.tar.gz && \
+  mkdir -p /app && \
   tar -zxf DnsServerPortable.tar.gz -C /app
 
 
