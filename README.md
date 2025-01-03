@@ -13,7 +13,7 @@
 ```yml
   dnsserver:
     container_name: ts-dnsserver
-    image: galihcupu/ts-dnsserver:latest
+    image: roxedus/ts-dnsserver:latest
     ports:
       - 53:53/udp
       - 5380:5380
@@ -29,7 +29,7 @@
   <summary>Docker run example</summary>
 
 ```bash
-docker run -p 53:53/udp -p 5380:5380 -v ${PWD}/ts-dnsserver:/config -e PUID=1000 -e PGID=1000 galihcupu/ts-dnsserver:latest
+docker run -p 53:53/udp -p 5380:5380 -v ${PWD}/ts-dnsserver:/config -e PUID=1000 -e PGID=1000 roxedus/ts-dnsserver:latest
 ```
 
 </details>
