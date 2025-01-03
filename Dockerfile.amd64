@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/roxedus/base-alpine
+FROM ghcr.io/galihcupu/base-alpine
 
 LABEL maintainer=roxedus
 
