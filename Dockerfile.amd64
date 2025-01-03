@@ -22,4 +22,3 @@ RUN \
 WORKDIR /app
 EXPOSE 5380 53/udp
 COPY root/ /
-ENTRYPOINT [/bin/sh start.sh]
