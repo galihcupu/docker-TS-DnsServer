@@ -11,7 +11,7 @@ RUN \
     icu-libs \
     libintl \
     libcap \
-    aspnetcore8-runtime \
+    aspnetcore9-runtime \
     tar
 
 RUN \
